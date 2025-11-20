@@ -20,11 +20,6 @@ Here are some basic examples relating to the package
 
 ``` r
 library(Homework6)
-#> 
-#> Attaching package: 'Homework6'
-#> The following object is masked from 'package:base':
-#> 
-#>     norm
 
 # Create a regular numeric vector
 regular_vec = c(0, 1.5, 0, 0, 2.3, 0, 0, 4.1, 0, 0)
@@ -45,6 +40,22 @@ sparse_vec2 = as(regular_vec2, "sparse_numeric")
 
 # Arithmetic operations
 sum_vec = sparse_vec + sparse_vec2
+print(sum_vec)
+#> Sparse Numeric Vector (length = 10 )
+#> Non-zero values:
+#>   position value
+#> 1        2   2.0
+#> 2        4   1.0
+#> 3        5   4.6
+#> 4        8   4.1
+#> 5        9   3.2
 diff_vec = sparse_vec - sparse_vec2
-product_vec = sparse_vec * sparse_vec2
+print(diff_vec)
+#> Sparse Numeric Vector (length = 10 )
+#> Non-zero values:
+#>   position value
+#> 1        2   1.0
+#> 2        4  -1.0
+#> 3        8   4.1
+#> 4        9  -3.2
 ```
