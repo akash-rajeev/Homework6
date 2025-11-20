@@ -35,7 +35,7 @@ devtools::install_github("akash-rajeev/Homework6)
 ## Example
 
 Here are some basic examples relating to the package
-```{r example}
+```{r example, message=FALSE, warning=FALSE}
 library(Homework6)
 
 # Create a regular numeric vector
@@ -51,8 +51,10 @@ sparse_vec2 = as(regular_vec2, "sparse_numeric")
 
 # Arithmetic operations
 sum_vec = sparse_vec + sparse_vec2
+print(sum_vec)
 diff_vec = sparse_vec - sparse_vec2
-product_vec = sparse_vec * sparse_vec2
+print(diff_vec)
+
 ```
 
 
