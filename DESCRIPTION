@@ -1,0 +1,18 @@
+Package: Homework6
+Title: Sparse Numeric Vector Implementation
+Version: 0.0.0.9000
+Authors@R: 
+    person("Akash", "Rajeev", , "akash.rajeev@utexas.edu", role = c("aut", "cre"))
+Description: This package is an S4 class implementation that involves storing and performing operations on sparse numeric 
+    vectors. The package stores non-zero values and their positions to represent sparse vectors, which may allow for more
+    efficient operations for vectors that may contain numbers of zeros. It includes some arithmetic operations, statistical operations, 
+    as well as some visualization tools.
+License: MIT + file LICENSE
+Encoding: UTF-8
+Roxygen: list(markdown = TRUE)
+RoxygenNote: 7.3.3
+Imports:
+  methods
+Suggests:
+    testthat (>= 3.0.0)
+Config/testthat/edition: 3
