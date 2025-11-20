@@ -5,7 +5,7 @@
 
 <!-- badges: start -->
 
-[![R-CMD-check](https://github.com/akash-rajeev/Homework6/workflows/R-CMD-check/badge.svg)](https://github.com/akash-rajeev/Homework6/actions)
+[![R-CMD-check](https://github.com/akash-rajeev/Homework6/actions/workflows/R-CMD-check.yaml/badge.svg)](https://github.com/akash-rajeev/Homework6/actions/workflows/R-CMD-check.yaml)
 <!-- badges: end -->
 
 The goal of Homework6 is to create a package that allows for basic
