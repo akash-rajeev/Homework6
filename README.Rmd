@@ -9,15 +9,16 @@ knitr::opts_chunk$set(
   collapse = TRUE,
   comment = "#>",
   fig.path = "man/figures/README-",
-  out.width = "100%"
+  out.width = "100%",
+  warning=FALSE,
+  message=FALSE
 )
 ```
 
 # Homework6
 
 <!-- badges: start -->
-[![R-CMD-check](https://github.com/akash-rajeev/Homework6/actions/workflows/R-CMD-check.yaml/badge.svg)](https://github.com/akash-rajeev/Homework6/actions/workflows/R-CMD-check.yaml)
-[![R-CMD-check](https://github.com/akash-rajeev/Homework6/actions/workflows/R-CMD-check.yaml/badge.svg)](https://github.com/akash-rajeev/Homework6/actions/workflows/R-CMD-check.yaml)
+[![R-CMD-check](https://github.com/akash-rajeev/Homework6/workflows/R-CMD-check/badge.svg)](https://github.com/akash-rajeev/Homework6/actions)
 <!-- badges: end -->
 
 The goal of Homework6 is to create a package that allows for basic operations on sparse matrices. Contains several methods relating to the development of sparse matrices, including arithmetic operations, statistical operations, and display operations.
@@ -35,7 +36,7 @@ devtools::install_github("akash-rajeev/Homework6)
 ## Example
 
 Here are some basic examples relating to the package
-```{r example, message=FALSE, warning=FALSE}
+```{r example}
 library(Homework6)
 
 # Create a regular numeric vector
